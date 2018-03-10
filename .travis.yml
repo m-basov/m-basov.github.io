@@ -10,13 +10,15 @@ script:
   - hugo
 
 deploy:
+  edge:
+    branch: v1.8.47
   provider: pages
   skip-cleanup: true
-  keep-history: false
+  keep-history: true
   github-token: $GITHUB_TOKEN
   local-dir: public
   target-branch: master
-  # committer-from-gh: true
+  committer-from-gh: true
   verbose: true
   on:
     branch: develop

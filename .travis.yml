@@ -1,0 +1,19 @@
+language: go
+
+go:
+  - master
+
+install:
+  - go get github.com/spf13/hugo
+
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  keep_history: false
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  on:
+    branch: master

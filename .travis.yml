@@ -12,11 +12,11 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  keep-history: true
+  keep-history: false
   github-token: $GITHUB_TOKEN
   local-dir: public
   target-branch: master
-  committer-from-gh: true
+  # committer-from-gh: true
   verbose: true
   on:
     branch: develop

@@ -1,3 +1,4 @@
 baseURL = "https://kolybasov.github.io"
 languageCode = "en-us"
 title = "Mykola Basov"
+staticDir = "static/assets"

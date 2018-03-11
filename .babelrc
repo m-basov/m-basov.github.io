@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", {
+      "modules": "amd",
+      "targets": {
+        "browsers": [
+          "> 1%",
+          "Last 2 versions",
+          "IE 11"
+        ]
+      }
+    }]
+  ]
+}

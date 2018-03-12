@@ -1,12 +1,23 @@
 language: go
 
+sudo: false
+dist: trusty
+
+cache:
+  yarn: true
+
 go:
   - stable
 
+node_js:
+  - lts/*
+
 install:
   - go get github.com/spf13/hugo
+  - yarn install --non-interactive
 
 script:
+  - yarn build
   - hugo
 
 deploy:

@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>
-    {{- if .IsPage -}}
-      {{ .Title }} - {{ .Site.Title }}
-    {{- else -}}
-      {{ .Site.Title }}
-    {{- end -}}
-  </title>
-  <!-- Favicon -->
-  {{ partial "favicon.html" . }}
-  <!-- SEO -->
-  {{ template "_internal/schema.html" . }}
-  {{ template "_internal/google_news.html" . }}
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-</head>
-<body>
-  {{ partial "header.html" . }}
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {{- if .IsPage -}}
+        {{ .Title }} - {{ .Site.Title }}
+      {{- else -}}
+        {{ .Site.Title }}
+      {{- end -}}
+    </title>
+    <!-- Favicon -->
+    {{ partial "favicon.html" . }}
+    <!-- SEO -->
+    {{ template "_internal/schema.html" . }}
+    {{ template "_internal/google_news.html" . }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    <!-- CSS -->
+    {{ partial "styles.html" . }}
+  </head>
 
-  <main>
-    {{- block "main" . -}}
-      Default main
-    {{- end -}}
-  </main>
+  <body>
+    {{ partial "header.html" . }}
 
-  {{ partial "footer.html" . }}
-</body>
+    <main>
+      {{- block "main" . -}}
+        Default main
+      {{- end -}}
+    </main>
+
+    {{ partial "footer.html" . }}
+
+    <!-- JS -->
+    {{ partial "scripts.html" . }}
+  </body>
 </html>

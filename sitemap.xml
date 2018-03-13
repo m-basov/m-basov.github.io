@@ -3,27 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kolybasov.github.io/projects/ember-cli-config-builder/</loc>
+    <lastmod>2018-03-13T15:07:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kolybasov.github.io/posts/welcome/</loc>
+    <lastmod>2018-03-13T15:06:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kolybasov.github.io/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://kolybasov.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://kolybasov.github.io/tags/ember/</loc>
+    <lastmod>2018-03-13T15:07:53+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kolybasov.github.io/tags/js/</loc>
+    <lastmod>2018-03-13T15:07:53+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kolybasov.github.io/</loc>
+    <lastmod>2018-03-13T15:07:53+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kolybasov.github.io/tags/oss/</loc>
+    <lastmod>2018-03-13T15:07:53+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kolybasov.github.io/posts/</loc>
+    <lastmod>2018-03-13T15:06:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kolybasov.github.io/projects/</loc>
+    <lastmod>2018-03-13T15:07:53+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kolybasov.github.io/tags/</loc>
+    <lastmod>2018-03-13T15:07:53+02:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kolybasov.github.io/projects/ember-cli-config-builder/</loc>
   </url>
   
 </urlset>

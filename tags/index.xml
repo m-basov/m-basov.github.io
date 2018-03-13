@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Mykola Basov</title>
+    <title>Tags on Mykola Basov&#39;s Blog</title>
     <link>https://kolybasov.github.io/tags/</link>
-    <description>Recent content in Tags on Mykola Basov</description>
+    <description>Recent content in Tags on Mykola Basov&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 13 Mar 2018 15:07:53 +0200</lastBuildDate>
     
 	<atom:link href="https://kolybasov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ember</title>
+      <link>https://kolybasov.github.io/tags/ember/</link>
+      <pubDate>Tue, 13 Mar 2018 15:07:53 +0200</pubDate>
+      
+      <guid>https://kolybasov.github.io/tags/ember/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Js</title>
+      <link>https://kolybasov.github.io/tags/js/</link>
+      <pubDate>Tue, 13 Mar 2018 15:07:53 +0200</pubDate>
+      
+      <guid>https://kolybasov.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oss</title>
+      <link>https://kolybasov.github.io/tags/oss/</link>
+      <pubDate>Tue, 13 Mar 2018 15:07:53 +0200</pubDate>
+      
+      <guid>https://kolybasov.github.io/tags/oss/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

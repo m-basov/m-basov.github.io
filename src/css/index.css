@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+
+  & &__link {
+    display: inline-block;
+    color: $base-color;
+    margin-left: 15px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

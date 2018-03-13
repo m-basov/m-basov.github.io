@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "dev": "hugo -Dw & webpack --watch"
+    "dev": "hugo server -Dw & webpack --watch"
   },
   "devDependencies": {
     "autoprefixer": "^8.1.0",
@@ -19,6 +19,7 @@
     "css-loader": "^0.28.10",
     "eslint": "^4.18.2",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "postcss-import": "^11.1.0",
     "postcss-loader": "^2.1.1",
     "postcss-preset-env": "^3.2.2",
     "precss": "^3.1.2",
@@ -30,5 +31,8 @@
     "> 1%",
     "Last 2 versions",
     "IE 11"
-  ]
+  ],
+  "dependencies": {
+    "modern-normalize": "^0.4.0"
+  }
 }

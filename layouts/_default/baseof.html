@@ -23,16 +23,17 @@
   </head>
 
   <body>
-    {{ partial "header.html" . }}
+      {{ partial "header.html" . }}
 
-    <main>
-      {{- block "main" . -}}
-        Default main
-      {{- end -}}
-    </main>
+      <div class="container">
+        <main class="main">
+          {{- block "main" . -}}
+          {{- end -}}
+        </main>
 
-    {{ partial "footer.html" . }}
-
+        {{ block "footer" . }}
+        {{ end }}
+      </div>
     <!-- JS -->
     {{ partial "scripts.html" . }}
   </body>

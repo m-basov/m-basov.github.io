@@ -1,3 +1,15 @@
 {{ define "main" }}
-  Index
+  <div class="main__content">
+    {{ range last 10 (where .Data.Pages "Type" "!=" "page") }}
+      {{ partial "content-preview.html" . }}
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ define "footer" }}
+  <footer class="footer">
+    <a class="footer__link" href='{{ .Site.RSSLink }}'>RSS Feed</a>
+    <a class="footer__link" href='{{ print .Site.Params.GithubLink "/kolybasov.github.io" }}'>Source</a>
+    <a class="footer__link">&copy; 2018</a>
+  </footer>
 {{ end }}

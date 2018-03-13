@@ -1,3 +1,6 @@
 {{ define "main" }}
-  List
+  {{ .Content }}
+  {{ range .Data.Pages }}
+    {{ partial "content-preview.html" . }}
+  {{ end }}
 {{ end }}

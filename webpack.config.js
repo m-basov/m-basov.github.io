@@ -42,10 +42,7 @@ module.exports = {
   },
 
   plugins: [
-    new CleanWebpackPlugin(['./static/assets/*.*'], {
-      watch: true,
-      beforeEmit: true
-    }),
+    new CleanWebpackPlugin(['./static/assets/*.*']),
     extractCSS
   ]
 };

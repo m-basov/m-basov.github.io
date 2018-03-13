@@ -1,3 +1,21 @@
-<header>
-  <h2>Header</h2>
+<header class="header">
+  <div class="container header__container">
+    <a href="{{ .Site.BaseURL }}" class="header__logo-link">
+      <img src='{{ "/images/logo.svg" | absURL }}' alt="logo" class="header__logo-img">
+    </a>
+
+    <nav class="header__nav">
+      <a class="header__nav-link header__nav-link--current" href='{{ "/posts" | absURL }}'>
+        Blog
+      </a>
+
+      <a class="header__nav-link" href='{{ "/projects" | absURL }}'>
+        Projects
+      </a>
+
+      <a class="header__nav-link" href='{{ "/about" | absURL }}'>
+        About
+      </a>
+    </nav>
+  </div>
 </header>

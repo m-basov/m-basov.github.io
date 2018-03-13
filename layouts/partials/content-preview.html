@@ -1,0 +1,34 @@
+<div class="content-preview">
+  <!-- Title -->
+  <h2 class="content-preview__title">
+    <a class="content-preview__title-link" href='{{ .Permalink }}'>{{ .Title }}</a>
+  </h2>
+  <!-- Meta -->
+  <div class="content-preview__meta">
+    <!-- Type: projects/posts -->
+    <div class="content-preview__meta-type">
+      <a href='{{ .Type | absURL }}'>{{ title .Type }}</a>
+    </div>
+    <!-- Date: MMM DD, YYYY -->
+    <div class="content-preview__meta-date">
+      &middot; {{ .PublishDate.Format "January 2, 2006" }}
+    </div>
+    <!-- Tags if present -->
+    {{ with .Params.tags }}
+    <div class="content-preview__meta-tags">
+      &middot;
+      {{ range . }}
+      <a class="content-preview__meta-tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>
+        {{ . }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  <!-- Summary -->
+  <div class="content-preview__summary">{{ .Summary }}</div>
+  <!-- Read more -->
+  <div class="content-preview__readmore">
+    <a href='{{ .Permalink }}'>Read more…</a>
+  </div>
+</div>

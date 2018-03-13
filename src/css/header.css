@@ -1,0 +1,41 @@
+.header {
+  border-top: 2px solid $accent-color;
+
+  & &__container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  & &__logo-link {
+    height: 100%;
+  }
+
+  & &__logo-img {
+    height: 100%;
+  }
+
+  & &__nav {
+    margin-right: 15px;
+  }
+
+  & &__nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: $accent-color;
+    margin-left: 15px;
+    font-size: 1.2em;
+
+    &--current {
+      color: $base-color;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+

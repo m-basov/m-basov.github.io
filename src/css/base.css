@@ -7,4 +7,32 @@
 
 .main {
   min-height: calc(100vh - 102px);
+
+  & &__content {
+    line-height: 1.6;
+    font-size: 1.2em;
+  }
+
+  & &__heading {
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $dimmed-color;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & &__pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+    &-link {
+      color: $accent-color;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
 }

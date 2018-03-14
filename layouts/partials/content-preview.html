@@ -5,18 +5,15 @@
   </h2>
   <!-- Meta -->
   <div class="content-preview__meta">
-    <!-- Type: projects/posts -->
-    <div class="content-preview__meta-type">
-      <a href='{{ .Type | absURL }}'>{{ title .Type }}</a>
-    </div>
     <!-- Date: MMM DD, YYYY -->
     <div class="content-preview__meta-date">
-      &middot; {{ .PublishDate.Format "January 2, 2006" }}
+      {{ .PublishDate.Format "January 2, 2006" }}
     </div>
     <!-- Tags if present -->
     {{ with .Params.tags }}
+    <div class="content-preview__meta-separator">&middot;</div>
     <div class="content-preview__meta-tags">
-      &middot;
+      <span>Tags: </span>
       {{ range . }}
       <a class="content-preview__meta-tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>
         {{ . }}

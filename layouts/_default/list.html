@@ -1,6 +1,18 @@
 {{ define "main" }}
-  {{ .Content }}
-  {{ range .Data.Pages }}
-    {{ partial "content-preview.html" . }}
-  {{ end }}
+  {{ $paginator := .Paginate .Data.Pages 5 }}
+  <h2 class="main__heading">
+    <span>{{ .Type }}</span>
+    <a href='{{ .RSSLink }}'>
+      <img src='{{ "images/rss.svg" | absURL }}' alt="RSS">
+    </a>
+  </h2>
+
+  <div class="main__content">
+    {{ .Content }}
+    {{ range $paginator.Pages }}
+      {{ partial "content-preview.html" . }}
+    {{ end }}
+  </div>
+
+  {{ partial "pagination.html" $paginator }}
 {{ end }}

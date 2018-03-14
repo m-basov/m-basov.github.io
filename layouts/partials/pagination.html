@@ -1,0 +1,14 @@
+{{ if gt .TotalPages 1 }}
+<div class="main__pagination">
+  {{ with .Prev }}
+  <a class="main__pagination-link" href='{{ .URL }}'>&larr; Prev</a>
+  {{ else }}
+  <span class="main__pagination-placeholder"></span>
+  {{ end }}
+  {{ with .Next }}
+  <a class="main__pagination-link" href='{{ .URL }}'>Next &rarr;</a>
+  {{ else }}
+  <span class="main__pagination-placeholder"></span>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,7 +1,7 @@
 .content-preview {
   margin-top: 40px;
 
-  & &__title {
+  &__title {
     font-size: 1.3em;
     margin: 5px 0;
 
@@ -12,7 +12,7 @@
     }
   }
 
-  & &__meta {
+  &__meta {
     display: flex;
     align-items: center;
     font-size: 0.9em;
@@ -42,10 +42,10 @@
     }
   }
 
-  & &__summary {
+  &__summary {
   }
 
-  & &__readmore {
+  &__readmore {
     margin-top: 10px;
     font-size: 0.9em;
 

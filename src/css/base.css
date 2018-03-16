@@ -8,12 +8,13 @@
 .main {
   min-height: calc(100vh - 102px);
 
-  & &__content {
+  &__content {
     line-height: 1.6;
     font-size: 1.2em;
+    color: $content-color;
   }
 
-  & &__heading {
+  &__heading {
     font-weight: normal;
     text-transform: uppercase;
     color: $dimmed-color;
@@ -23,7 +24,7 @@
     align-items: center;
   }
 
-  & &__pagination {
+  &__pagination {
     display: flex;
     justify-content: space-between;
     align-items: center;

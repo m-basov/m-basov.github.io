@@ -4,7 +4,7 @@
   align-items: center;
   height: 50px;
 
-  & &__link {
+  &__link {
     display: inline-block;
     color: $base-color;
     margin-left: 15px;

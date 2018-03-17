@@ -3,6 +3,7 @@ title: "Welcome"
 date: 2018-03-13T15:06:21+02:00
 draft: false
 tags: []
+githubIssue: 1
 ---
 
 Lorem markdownum degenerat quae: causa testemque divam in draconum retinentibus
@@ -11,15 +12,20 @@ spatium** luctor mea spumantis lunae dicar, coniunx tollite. **Tendebat** partu
 exstanti Phrygibus alas retexite.
 <!-- more -->
 
-# Velis ubi mittunt
+## Heading 2
 
-## Est tecum labore
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
 
 Lorem markdownum degenerat quae: causa testemque divam in draconum retinentibus
 lucis quaeque sollicitata hunc iugalia. Heu **heu lucem** conplectens **tectae
 spatium** luctor mea spumantis lunae dicar, coniunx tollite. **Tendebat** partu
 exstanti Phrygibus alas retexite.
 
+{{< code-snippet >}}
     cell_flowchart = alignmentClone.intelligenceBarMemory(e_honeypot.sector(
             pharming, shareware + copy));
     mipsKeyDns.access_png(openglGraymailBuffer);
@@ -27,6 +33,7 @@ exstanti Phrygibus alas retexite.
             home_perl_sampling, filenamePpcBackup, browserRichBrowser) +
             responsive_e + network;
     gigabyte.memory += smishingDirectx;
+{{< /code-snippet >}}
 
 [Et](http://sacrificos.org/) o, nunc pars monuit aeratas coloris Troianis!
 Quoque bimembres nacta; monte summe Erymantho iubet adhuc; et ultro lacrimas?

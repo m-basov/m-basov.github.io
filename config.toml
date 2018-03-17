@@ -10,3 +10,4 @@ pygmentsOptions = "linenos=table"
 
 [params]
   githubLink = "https://github.com/kolybasov"
+  githubRepo = "kolybasov.github.io"

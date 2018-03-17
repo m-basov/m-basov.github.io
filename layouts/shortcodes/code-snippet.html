@@ -1,0 +1,10 @@
+<section class="code-snippet">
+  <div class="code-snippet__controls">
+    <button class="code-snippet__control" data-control="wrap">Toggle Word Wrap</button>
+  </div>
+  <div class="code-snippet__code">
+    {{ $lang := default "" (.Get 0) }}
+    {{ $opts := default "" (.Get 1) }}
+    {{ highlight .Inner $lang $opts }}
+  </div>
+</section>

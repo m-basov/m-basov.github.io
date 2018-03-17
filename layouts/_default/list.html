@@ -2,7 +2,7 @@
   {{ $paginator := .Paginate .Data.Pages 5 }}
   <h2 class="main__heading">
     <span>{{ .Type }}</span>
-    <a href='{{ .RSSLink }}'>
+    <a class="main__heading-link" href='{{ .RSSLink }}'>
       <img src='{{ "images/rss.svg" | absURL }}' alt="RSS">
     </a>
   </h2>

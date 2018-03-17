@@ -1,6 +1,15 @@
 {{ define "main" }}
   <h1 class="main__content-heading">{{ .Title }}</h1>
+  <div>{{ .TableOfContents }}</div>
   <div class="main__content">
     {{ .Content }}
   </div>
+  {{ if .Params.GithubIssue }}
+  <div class="main__post-content-notice">
+    <span>If you have any comments or suggestions please post it at&nbsp;
+    <a href='{{ .Site.Params.GithubLink }}/{{ .Site.Params.GithubRepo }}/issues/{{ .Params.GithubIssue }}'>
+      GitHub
+    </a>.</span>
+  </div>
+  {{ end }}
 {{ end }}

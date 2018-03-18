@@ -1,0 +1,37 @@
+.code-snippet {
+  border-top: 2px solid $accent-color;
+  border-bottom: 2px solid $accent-color;
+  padding-top: 10px;
+
+  &__controls {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__control {
+    border: 1px solid $accent-color;
+    background-color: $white-color;
+    color: $accent-color;
+    cursor: pointer;
+    font-size: 0.8em;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color .1s ease-in-out;
+
+    &:hover, &:focus, &:active {
+      color: $white-color;
+      background-color: $accent-color;
+    }
+  }
+
+  &__code {
+    font-size: 0.95em;
+
+    &--word-wrap {
+      pre {
+       white-space: pre-wrap;
+       word-wrap: break-word;
+      }
+    }
+  }
+}

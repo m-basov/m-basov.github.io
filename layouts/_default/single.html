@@ -1,9 +1,14 @@
 {{ define "main" }}
   <h1 class="main__content-heading">{{ .Title }}</h1>
-  <div>{{ .TableOfContents }}</div>
+
+  {{ if .Params.ShowTOC }}
+    {{ .TableOfContents }}
+  {{ end }}
+
   <div class="main__content">
     {{ .Content }}
   </div>
+
   {{ if .Params.GithubIssue }}
   <div class="main__post-content-notice">
     <span>If you have any comments or suggestions please post it at&nbsp;

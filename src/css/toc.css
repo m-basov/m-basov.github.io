@@ -1,0 +1,7 @@
+#TableOfContents {
+  border-left: 2px solid $accent-color;
+
+  ul {
+    list-style: none;
+  }
+}

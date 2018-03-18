@@ -8,6 +8,13 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+
 [params]
   githubLink = "https://github.com/kolybasov"
   githubRepo = "kolybasov.github.io"
+
+[blackfriday]
+  hrefTargetBlank = true

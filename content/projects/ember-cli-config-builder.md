@@ -6,7 +6,7 @@ tags: ["js", "ember", "oss"]
 
 # ember-cli-config-builder
 
-```javascript
+{{< code-snippet "javascript" >}}
 // Import library
 const ConfigBuilder = require('ember-cli-config-builder');
 
@@ -48,4 +48,4 @@ await config.save(); // will write changes to disk and return string with file c
 // Or you can write changes to another file
 await config.save('./my-addon/config/new-environment.js');
 // See Advanced Usage section for more use cases
-```
+{{< /code-snippet >}}

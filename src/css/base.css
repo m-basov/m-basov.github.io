@@ -94,3 +94,22 @@
     }
   }
 }
+
+.not-found {
+  text-align: center;
+
+  h2 {
+    font-weight: normal;
+    font-size: 2em;
+    color: $base-color;
+  }
+
+  p {
+    font-size: 2em;
+
+    a {
+      color: $accent-color;
+      text-decoration: none;
+    }
+  }
+}

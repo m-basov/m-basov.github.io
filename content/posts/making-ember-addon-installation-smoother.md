@@ -26,7 +26,7 @@ Sounds not really ember-ish right? “But there is an addon for this!”
 
 [ember-cli-config-builder](https://github.com/kolybasov/ember-cli-config-builder) addon was created just to fill this gap and make your users happy!
 
-It is ember-addon itself so type `ember install ember-cli-config-builder` and you are ready to go! As you may remember we are building `ember-google-maps` addon and we need to add it’s config to user’s environment. To do this follow next steps:
+It is ember-addon itself so type `npm install --save ember-cli-config-builder` and you are ready to go! As you may remember we are building `ember-google-maps` addon and we need to add it’s config to user’s environment. To do this follow next steps:
 
 ### Create `blueprint/ember-google-maps/index.js` file.
 
@@ -215,4 +215,4 @@ Yep! And this addon was built to replace them but I will share so you can compar
 
 ## Conclusion
 
-`ember-cli-config-builder` goal is to provide similar to Ember developers way to edit config files programatically. And it is designed to work with default ember-cli generated files. If you have any issues or suggestions please post it to [issues](https://github.com/kolybasov/ember-cli-config-builder) It is young library and any feedback and testing on edge-cases is appreciated. Also if you like it give it your [star](https://github.com/kolybasov/ember-cli-config-builder)!
+`ember-cli-config-builder` goal is to provide familiar to Ember developers way to edit config files programatically. And it is designed to work with default ember-cli generated files. If you have any issues or suggestions please post it to [issues](https://github.com/kolybasov/ember-cli-config-builder) It is young library and any feedback and testing on edge-cases is appreciated. Also if you like it give it your [star](https://github.com/kolybasov/ember-cli-config-builder)!

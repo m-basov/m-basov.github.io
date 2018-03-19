@@ -47,6 +47,10 @@
       margin-left: 0;
       padding-left: 20px;
     }
+
+    code {
+      background-color: #f1f3f5;
+    }
   }
 
   &__heading {

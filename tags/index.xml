@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Mykola Basov&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Mar 2018 15:07:53 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Mar 2018 22:40:58 +0200</lastBuildDate>
     
 	<atom:link href="https://kolybasov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,36 @@
     <item>
       <title>Ember</title>
       <link>https://kolybasov.github.io/tags/ember/</link>
-      <pubDate>Tue, 13 Mar 2018 15:07:53 +0200</pubDate>
+      <pubDate>Mon, 19 Mar 2018 22:40:58 +0200</pubDate>
       
       <guid>https://kolybasov.github.io/tags/ember/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Js</title>
-      <link>https://kolybasov.github.io/tags/js/</link>
-      <pubDate>Tue, 13 Mar 2018 15:07:53 +0200</pubDate>
+      <title>Javascript</title>
+      <link>https://kolybasov.github.io/tags/javascript/</link>
+      <pubDate>Mon, 19 Mar 2018 22:40:58 +0200</pubDate>
       
-      <guid>https://kolybasov.github.io/tags/js/</guid>
+      <guid>https://kolybasov.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oss</title>
       <link>https://kolybasov.github.io/tags/oss/</link>
-      <pubDate>Tue, 13 Mar 2018 15:07:53 +0200</pubDate>
+      <pubDate>Mon, 19 Mar 2018 22:40:58 +0200</pubDate>
       
       <guid>https://kolybasov.github.io/tags/oss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://kolybasov.github.io/tags/programming/</link>
+      <pubDate>Mon, 19 Mar 2018 22:40:58 +0200</pubDate>
+      
+      <guid>https://kolybasov.github.io/tags/programming/</guid>
       <description></description>
     </item>
     

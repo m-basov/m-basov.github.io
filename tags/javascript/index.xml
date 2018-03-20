@@ -23,11 +23,11 @@
 
 &lt;p&gt;Or maybe you need to create &lt;code&gt;postcss.config.js&lt;/code&gt; file? Easy! Add it to files directory in your addon default blueprint.&lt;/p&gt;
 
-&lt;p&gt;Sounds like ember-cli has all you need to make your addon usage for end users just one terminal command. But imagine you are developing addon for integrating with third-party service(let’s say google maps) and you are 100% sure your users will need to add API key to their &lt;code&gt;environment.js&lt;/code&gt; config to make your addon actually do something. And it turns you have limited choices:&lt;/p&gt;
+&lt;p&gt;Sounds like ember-cli has all you need to make your addon usage for end users just one terminal command. But imagine you are developing an addon for integrating with third-party service(let’s say google maps) and you are 100% sure your users will need to add API key to their &lt;code&gt;environment.js&lt;/code&gt; config to make your addon actually do something. And it turns you have limited choices:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;override entire environment.js file with your keys;&lt;/li&gt;
-&lt;li&gt;remind user to add this keys manually.&lt;/li&gt;
+&lt;li&gt;remind a user to add this keys manually.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Sounds not really ember-ish right? “But there is an addon for this!”&lt;/p&gt;

@@ -1,12 +1,12 @@
 {{ define "main" }}
   <h2 class="main__heading">
-    <span>Recent posts and projects</span>
+    <span>Recent posts</span>
     <a class="main__heading-link" href='{{ .RSSLink }}'>
       <img src='{{ "images/rss.svg" | absURL }}' alt="RSS">
     </a>
   </h2>
   <div class="main__content">
-    {{ range last 10 (where .Data.Pages "Type" "!=" "page") }}
+    {{ range last 10 (where .Data.Pages "Type" "posts") }}
       {{ partial "content-preview.html" . }}
     {{ end }}
   </div>

@@ -50,6 +50,8 @@
 
     code {
       background-color: #f1f3f5;
+      word-break: break-all;
+      word-wrap: break-word;
     }
   }
 

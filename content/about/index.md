@@ -30,7 +30,8 @@ It looks like I have no idea what to use? In some way it is true but I prefer to
 use a better tool for each kind of problem. So if I need to teach something new
 it is always a joy!
 
-Also, I have some sort of CS education but who cares?
+My current location is Ukraine(and nationality as well) but there are plans to
+become nomadic. Also, I have some sort of CS education but who cares?
 
 ### BTW. I am looking for a job!
 

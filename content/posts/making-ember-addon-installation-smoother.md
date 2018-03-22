@@ -26,7 +26,7 @@ Sounds not really ember-ish right? “But there is an addon for this!”
 
 [ember-cli-config-builder](https://github.com/kolybasov/ember-cli-config-builder) addon was created just to fill this gap and make your users happy!
 
-It is ember-addon itself so type `npm install --save ember-cli-config-builder` and you are ready to go! As you may remember we are building `ember-google-maps` addon and we need to add it’s config to user’s environment. To do this follow next steps:
+It is not an ember-addon itself so you need to use npm or yarn. Just type in `npm install --save ember-cli-config-builder` and you are ready to go! As you may remember we are building `ember-google-maps` addon and we need to add it’s config to user’s environment. To do this follow next steps:
 
 ### Create `blueprint/ember-google-maps/index.js` file.
 

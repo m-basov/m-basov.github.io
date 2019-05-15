@@ -30,9 +30,7 @@
 &lt;li&gt;remind a user to add this keys manually.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Sounds not really ember-ish right? “But there is an addon for this!”&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Sounds not really ember-ish right? “But there is an addon for this!”&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,10 +39,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kolybasov.github.io/about/</guid>
-      <description>Hello! I am Mykola and I am front-end developer(it is confession). Most time of my career I spent working with Ember.js framework. However, I am not one-framework-fan and really open-minded.
-Aside from Ember.js, I tried(and believe understand them) a few more popular JS frameworks in particular React and Vue.
-Sometimes there were need of build tools for my shiny-bleeding-edge-js-projects so I wrote some Node.js code too!
-And finally when I finished to writing my custom silver-bullet webpack config(just kidding I use ember-cli!</description>
+      <description> Hello! Living in the dependencies hell.
+Contacts  email: blog@mbasov.com github: kolybasov twitter: mykola_basov  </description>
     </item>
     
   </channel>

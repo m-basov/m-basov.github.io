@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Mykola Basov&#39;s Blog</title>
+    <title>programming on Mykola Basov&#39;s Blog</title>
     <link>https://kolybasov.github.io/tags/programming/</link>
-    <description>Recent content in Programming on Mykola Basov&#39;s Blog</description>
+    <description>Recent content in programming on Mykola Basov&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Mar 2018 22:40:58 +0200</lastBuildDate>
@@ -30,9 +30,7 @@
 &lt;li&gt;remind a user to add this keys manually.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Sounds not really ember-ish right? “But there is an addon for this!”&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Sounds not really ember-ish right? “But there is an addon for this!”&lt;/p&gt;</description>
     </item>
     
   </channel>

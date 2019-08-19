@@ -3,7 +3,7 @@ title: "Making Ember Addon Installation Smoother"
 date: 2018-03-19T22:40:58+02:00
 githubIssue: 1
 tags: ["programming", "oss", "javascript", "ember"]
-draft: false
+draft: true
 showTOC: false
 ---
 

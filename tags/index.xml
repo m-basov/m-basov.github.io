@@ -6,46 +6,9 @@
     <description>Recent content in Tags on Mykola Basov&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Mar 2018 22:40:58 +0200</lastBuildDate>
     
 	<atom:link href="https://kolybasov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>ember</title>
-      <link>https://kolybasov.github.io/tags/ember/</link>
-      <pubDate>Mon, 19 Mar 2018 22:40:58 +0200</pubDate>
-      
-      <guid>https://kolybasov.github.io/tags/ember/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://kolybasov.github.io/tags/javascript/</link>
-      <pubDate>Mon, 19 Mar 2018 22:40:58 +0200</pubDate>
-      
-      <guid>https://kolybasov.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>oss</title>
-      <link>https://kolybasov.github.io/tags/oss/</link>
-      <pubDate>Mon, 19 Mar 2018 22:40:58 +0200</pubDate>
-      
-      <guid>https://kolybasov.github.io/tags/oss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://kolybasov.github.io/tags/programming/</link>
-      <pubDate>Mon, 19 Mar 2018 22:40:58 +0200</pubDate>
-      
-      <guid>https://kolybasov.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
